@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+}
+
+.button_sing_up {
+    margin-left: 5px;
+}
+
+.hr1 {
+    background-color: #2a9d8f;
+    border: solid 3px blue;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.upskills a {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #4039b3;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.form1 input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form1 button {
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.form1 button:hover {
+    background-color: #21867a;
+}
+
+.image1 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.form2 button {
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.form2 button:hover {
+    background-color: #21867a;
+}
+
+
+
+.column {
+    width: 25%;
+    padding: 15px;
+    margin-right: 150px
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    width: 450px;
+    height: 200px;
+    padding-left: 15px;
+    margin-left: 250px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.p5 {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin: 10px;
+}
+
+.div5 {
+    margin-top: 50px;
+}
