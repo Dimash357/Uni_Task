@@ -194,23 +194,7 @@ p {
 }
 
 
-<<<<<<< HEAD
 
-.column {
-    width: 25%;
-    padding: 15px;
-    margin-right: 150px
-}
-
-.row {
-    margin: 0 -5px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-=======
 .column {
     width: 50%;
     padding: 15px;
@@ -223,20 +207,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
->>>>>>> fc6aa5e (new update)
 }
 
 .card {
     width: 450px;
-<<<<<<< HEAD
-    height: 200px;
-    padding-left: 15px;
-    margin-left: 250px;
-    text-align: center;
-    background-color: transparent;
-}
-
-=======
     text-align: center;
     background-color: transparent;
     box-sizing: border-box;
@@ -260,7 +234,6 @@ p {
 
 
 
->>>>>>> fc6aa5e (new update)
 .container-guidebook {
     margin-bottom: 150px;
 }
